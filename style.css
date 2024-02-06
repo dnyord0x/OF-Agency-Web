@@ -1,0 +1,39 @@
+.container-hero{
+    background-image: url(josh-hild-BYWLrxU3wBY-unsplash.jpg);
+    width: 100%;
+    height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+@media (max-width: 767px) {
+    body {
+       overflow-x: hidden;
+    }
+ }
+
+
+ 
+ 
+ body{
+    background: linear-gradient(rgb(234, 225, 228), rgb(245, 218, 222), rgb(255, 204, 204));
+    height: 100vh;
+   }
+   .custom-container {
+     background: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.7)), url(marvin-meyer-CU4yzp6j1uI-unsplash.jpg);
+     background-size: cover; /* Cover the entire container with the image */
+     background-position: center center; /* Center the image within the container */
+     height: 100vh; /* Set a specific height for the container */
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     color: white; /* Set text color to ensure readability */
+     width: 100%;
+   }
+   .about-us{
+     overflow-x: hidden;
+   }
+   .navbar a{
+     color: black;
+
+   }
